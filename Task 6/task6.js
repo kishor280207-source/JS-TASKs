@@ -48,7 +48,6 @@ let employees = [
   {name: "D", salary: 50000}
 ];
 
-// Increase salary 10%
 let updated = employees.map(e => ({
   ...e,
   salary: e.salary * 1.1
